@@ -1,0 +1,151 @@
+*{
+    /* border: 2px solid red; */
+}
+.maincontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: rgb(227,235,243);
+    height: 100vh;
+    display: flex;
+}
+.container{
+    border-radius: .4rem;
+    /* border: 2px solid red; */
+    overflow: hidden;
+}
+h1{
+    font-size: 22px;
+    color: hsl(179, 62%, 43%);;
+}
+.c1{
+    background-color: white;
+}
+.c23{
+    color: rgb(219, 224, 230, 0.6);
+}
+.moneyback{
+    color: rgb(188,222,62);
+    font-weight: 600;
+}
+.c1content{
+    line-height: 1.8rem;
+    color: rgb(172,172,180);
+    font-size: 16px;
+}
+h2{
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(227,235,243);
+}
+.c2{
+    background-color: rgba(43,179,177,255);
+}
+.price{
+    font-size: 30px;
+    margin-right: 0.7rem;
+    color: rgb(227,235,243);
+}
+.c2 button{
+    border: 2px solid rgb(188,222,62);
+    background-color: rgb(188,222,62);
+    border-radius: .3rem;
+    color: rgb(227,235,243,0.9);
+    
+    box-shadow: rgba(0, 0, 0, 0.45) 0rem .5rem .8rem -.3rem;
+}
+.c3{
+    background-color: rgba(90,190,189,255);
+}
+h5{
+    color: rgb(219, 224, 230, 0.6);
+    margin: 0rem;
+    line-height: 1.2rem;
+}
+.subcontent{
+    
+    color: rgb(227,235,243);
+}
+@media(max-width:550px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 22rem;
+    }
+    .c1{
+        background-color: white;
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+    .c1content{
+        margin-bottom: 1.8rem;
+    }
+    .c2{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: .7rem;
+        /* padding-bottom: 2.5rem; */
+    }
+    .c3{
+        padding: 0.7rem 3rem 1.4rem 1.4rem;
+        
+    }
+    
+    .c2 button{
+        padding: 0.7rem 7rem;
+        margin-top: 1rem;
+        margin-bottom: 1.6rem;
+
+    }
+
+    
+}
+@media(min-width:550px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 38rem;
+    }
+    
+    .c1{
+        padding: 1rem 2.1rem 1rem 2.1rem;
+    }
+    
+    
+    .c2{
+        padding: 1.4rem 1.4rem 2rem 1.4rem ;
+        box-sizing: border-box;
+        background-color: rgba(43,179,177,255);
+        width: 50%;
+    }
+    
+    .c23{
+        display: flex;
+        color: rgb(219, 224, 230, 0.6);
+    }
+    
+    .c2 button{
+        padding-top: 0.7rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        padding-bottom: 0.7rem;
+        border: 2px solid rgb(188,222,62);
+        margin-top: .5rem;
+        background-color: rgb(188,222,62);
+        border-radius: .3rem;
+        color: rgb(227,235,243,0.9);
+    }
+    .c3{
+        width: 50%;
+        padding: 1.4rem 1.4rem 0rem 1.4rem;
+        box-sizing: border-box;
+        background-color: rgba(90,190,189,255);
+    }
+    
+
+}
